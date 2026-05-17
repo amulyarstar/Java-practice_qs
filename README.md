@@ -31,7 +31,7 @@ The repository contains the following standalone Java programs:
 | `Generic.java` | Implements generic structures to enforce compile-time type checking. | Generics |
 | `Text_filehandling.java` | Explores character stream operations for text files. | File I/O |
 | `binary_file_handling.java` | Explores byte stream operations for non-text/binary files. | File I/O |
-
+| `Cookies.java` | Explores how to read cookies using Java Servlets.. | Servlets|
 ---
 
 ## 🛠️ Getting Started & How to Run

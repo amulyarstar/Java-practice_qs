@@ -1,7 +1,6 @@
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-
 // Servlet to read cookie value from browser
 public class ReadCookieServlet extends HttpServlet {
 

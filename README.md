@@ -1,22 +1,26 @@
 # Java Practice Questions
 
-A structured repository dedicated to mastering core and advanced Java concepts through hands-on code implementations. This project covers essential topics required for building robust applications, including multi-threaded programming, type-safe generics, and efficient file operations.
+A structured repository dedicated to mastering core and advanced Java concepts through hands-on code implementations. This project covers essential topics required for building robust applications, including multi-threaded programming, type-safe generics, efficient file operations, and web development basics.
 
 ## 🚀 Topics & Features Covered
 
 ### 1. Multithreading & Concurrency
-
-* **Thread Creation:** Demonstrates different ways to spin up and manage multiple threads of execution.
-* **Inter-Thread Communication:** Showcases synchronization, thread coordination, and signaling using `wait()` and `notify()`.
+- **Thread Creation:** Demonstrates different ways to spin up and manage multiple threads of execution.
+- **Inter-Thread Communication:** Showcases synchronization, thread coordination, and signaling using `wait()` and `notify()`.
 
 ### 2. Generics
-
-* **Type Safety:** Code examples highlighting how to design reusable, type-safe classes and methods to eliminate runtime `ClassCastException` errors.
+- **Type Safety:** Code examples highlighting how to design reusable, type-safe classes and methods to eliminate runtime `ClassCastException` errors.
 
 ### 3. File Handling (I/O Streams)
+- **Text File Handling:** Utilizing character streams (`FileReader`, `FileWriter`) to read and write plain text files.
+- **Binary File Handling:** Utilizing byte streams (`FileInputStream`, `FileOutputStream`) to read and write binary data efficiently.
 
-* **Text File Handling:** Utilizing character streams (`FileReader`, `FileWriter`) to read and write plain text files.
-* **Binary File Handling:** Utilizing byte streams (`FileInputStream`, `FileOutputStream`) to read and write binary data efficiently.
+### 4. Collections & Iteration
+- **Custom Iterators:** Explores the implementation and usage of the Iterator pattern in Java to traverse collections.
+
+### 5. Java Servlets & Web Basics
+- **Cookies:** Explores how to read, create, and manage cookies using Java Servlets.
+- **Response Redirection:** Demonstrates client-side redirection using `sendRedirect` in web applications.
 
 ---
 
@@ -25,56 +29,21 @@ A structured repository dedicated to mastering core and advanced Java concepts t
 The repository contains the following standalone Java programs:
 
 | File Name | Description | Topic |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `Multiple_thread_Creation.java` | Demonstrates spawning and running multiple independent threads. | Multithreading |
 | `Inter_Thread_Communication.java` | Coordinates thread execution paths via synchronization boundaries. | Multithreading |
 | `Generic.java` | Implements generic structures to enforce compile-time type checking. | Generics |
 | `Text_filehandling.java` | Explores character stream operations for text files. | File I/O |
 | `binary_file_handling.java` | Explores byte stream operations for non-text/binary files. | File I/O |
-| `Cookies.java` | Explores how to read cookies using Java Servlets.. | Servlets|
+| `itertor.java` | Demonstrates collection traversal using custom or built-in Iterators. | Collections |
+| `Cookies.java` | Explores how to read cookies using Java Servlets. | Servlets / Web |
+| `sendRedirect.java` | Demonstrates how to redirect a client request to another URL using Servlets. | Servlets / Web |
+
 ---
 
 ## 🛠️ Getting Started & How to Run
 
 ### Prerequisites
-
-* **Java Development Kit (JDK):** Ensure you have JDK 8 or higher installed on your system. You can verify this by running:
-```bash
-java -version
-
-```
-
-
-
-### Execution Steps
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/amulyarstar/Java-practice_qs.git
-
-```
-
-
-2. **Navigate into the project directory:**
-```bash
-cd Java-practice_qs
-
-```
-
-
-3. **Compile a specific Java file:**
-```bash
-javac Multiple_thread_Creation.java
-
-```
-
-
-4. **Run the compiled bytecode:**
-```bash
-java Multiple_thread_Creation
-
-```
-
-
-
----
+- **Java Development Kit (JDK):** Ensure you have JDK 8 or higher installed on your system. You can verify this by running:
+  ```bash
+  java -version

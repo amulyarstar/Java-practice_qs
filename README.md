@@ -40,7 +40,6 @@ The repository contains the following standalone Java programs:
 | `sendRedirect.java` | Demonstrates how to redirect a client request to another URL using Servlets. | Servlets / Web |
 
 ---
-
 ## 🛠️ Getting Started & How to Run
 
 ### Prerequisites

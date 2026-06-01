@@ -38,7 +38,6 @@ The repository contains the following standalone Java programs:
 | `itertor.java` | Demonstrates collection traversal using custom or built-in Iterators. | Collections |
 | `Cookies.java` | Explores how to read cookies using Java Servlets. | Servlets / Web |
 | `sendRedirect.java` | Demonstrates how to redirect a client request to another URL using Servlets. | Servlets / Web |
-
 ---
 ## 🛠️ Getting Started & How to Run
 

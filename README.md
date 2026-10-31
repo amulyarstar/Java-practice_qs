@@ -1,5 +1,5 @@
 # Java Practice Questions
-
+---
 A structured repository dedicated to mastering core and advanced Java concepts through hands-on code implementations. This project covers essential topics required for building robust applications, including multi-threaded programming, type-safe generics, efficient file operations, and web development basics.
 
 ## 🚀 Topics & Features Covered
